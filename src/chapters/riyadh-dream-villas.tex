@@ -1,0 +1,104 @@
+\setboolean{IsHalfPage}{false}%
+\setboolean{IsHalfPageLeftCol}{false}%
+\setboolean{IsHalfPageRightCol}{false}%
+\def\ChapterTitle{%
+	Riyadh Dream Villas
+}
+\def\ChapterUrl{%
+	https://arnottferels.github.io/work/riyadh-dream-villas
+}
+\def\ChapterDescription{%
+	Designing with a Biomimetic Approach
+}
+\def\ChapterDetailsLine{%
+	Master's Design Studio 2 -- 2022 | Form-finding; Biomimetics Design | Riyadh, Saudi Arabia
+}
+\def\ChapterDetailsTabular{%
+	\begin{tabular}{@{}ll}
+		\textbf{Type}          & International Competition by YAC (Young Architects Competitions)        \\
+		\textbf{Contributions} & Conceptual, Analysis, SubD modeling \& Visualization                    \\
+		\textbf{Software}      & Rhino, Grasshopper, Lumion \& Adobe Photoshop                           \\
+		\textbf{Collaborators} & Fikri Azmi                                                              \\
+		\textbf{Advisor}       & M. Prasetiyo Effendi Yasin \& Roro Diah Asih Purwaningrum               \\
+		\textbf{URL}           & \textcolor{blue}{\footnotesize\texttt{\href{\ChapterUrl}{\ChapterUrl}}} \\
+	\end{tabular}
+}
+\def\ChapterAbstract{%
+	This project focuses on the design of `dream villas' in desert environments, catering specifically to extravagant users. Employing an environmentally conscious approach, the design incorporates biomimicry to address site-specific challenges unique to the arid landscape. The villas feature dramatic and contextually relevant shapes that contribute to their aesthetic appeal and seamless integration into the neighborhood. By adopting an asymmetrical fluid form methodology, inspired by biomimicry, and incorporating inner courtyards in each villa, the design effectively tackles sustainability challenges associated with the desert climate. In conclusion, the project achieves a harmonious balance, prioritizing the comfort of residents both indoors and outdoors in a novel and refreshing manner.
+}
+\def\ChapterFrontmatter{%
+	\chapter*{\ChapterTitle}\addcontentsline{toc}{chapter}{\ChapterTitle}
+	\ChapterSetTocAddData{\ChapterDetailsLine}
+	\ChapterSetDetailsData{\ChapterDescription}{\ChapterDetailsLine}{\ChapterDetailsTabular}
+	\RuleAbstract%
+	\ChapterAbstract
+}
+\StartTwoColumnLayout
+\ChapterFrontmatter
+\section*{%
+  Concept
+ }
+\input{src/figures/riyadh-dream-villas--perspective.tex}
+\columnbreak%
+\setlength{\MinipageGap}{0.25cm}
+\setlength{\MinipageAWidth}{\dimexpr ((0.5\linewidth) - (\MinipageGap))\relax}%
+\setlength{\MinipageBWidth}{\dimexpr (\linewidth - \MinipageAWidth - \MinipageGap)\relax}
+\makebox[\linewidth][l]{%
+	\def\FigureRiyadhDreamVillasConcept{%
+		\begin{minipage}[t]{\MinipageAWidth}
+			\section*{Concept}
+			\input{src/figures/riyadh-dream-villas--concept.tex}
+		\end{minipage}
+	}
+	\def\Figure{\FigureRiyadhDreamVillasConcept}
+	\settototalheight{\ContentHeight}{\Figure}
+	\FigureRiyadhDreamVillasConcept
+	\hspace{\MinipageGap}
+	\begin{minipage}[t][\ContentHeight][t]{\MinipageBWidth}
+		\section*{Design Approach}
+		\vfill%
+		\input{src/figures/riyadh-dream-villas--design-approach.tex}
+		\vfill%
+		\vfill%
+	\end{minipage}
+}
+\section*{%
+  Mass Transformation
+ }
+\begin{multicols}{2}
+	\input{src/figures/riyadh-dream-villas--mass-trans-01.tex}
+	\input{src/figures/riyadh-dream-villas--mass-trans-02.tex}
+	\input{src/figures/riyadh-dream-villas--mass-trans-03.tex}
+	\input{src/figures/riyadh-dream-villas--mass-trans-04.tex}
+\end{multicols}
+\input{src/figures/riyadh-dream-villas--sectional-perspective.tex}
+\EndTwoColumnLayoutEndMulticolsTwo %
+\newpage
+\noindent
+\begin{specialblock}
+	\begin{minipage}[t]{0.375\linewidth}
+		\section*{%
+		  Features
+		 }
+		\input{src/figures/riyadh-dream-villas--features.tex}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.6\linewidth}
+		\input{src/figures/riyadh-dream-villas--site-plan.tex}
+	\end{minipage}
+\end{specialblock}
+\vfill%
+\StartTwoColumnLayoutBeginMulticolsTwo%
+\setlength{\columnsep}{0.5cm}%
+\begin{multicols}{2}
+	\input{src/figures/riyadh-dream-villas--perspective-01.tex}
+	\input{src/figures/riyadh-dream-villas--perspective-02.tex}
+\end{multicols}
+\columnbreak%
+\setlength{\columnsep}{0.5cm}%
+\begin{multicols}{2}
+	\input{src/figures/riyadh-dream-villas--perspective-03.tex}
+	\input{src/figures/riyadh-dream-villas--perspective-04.tex}
+\end{multicols}
+\EndTwoColumnLayout
+\newpage

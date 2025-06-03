@@ -1,0 +1,206 @@
+\makeatletter
+\newcommand{\setopenrightfalse}{\@openrightfalse}
+\newcommand{\setopenrighttrue}{\@openrighttrue}
+\makeatother
+\usepackage{geometry}
+\newlength{\PaperWidth}
+\newlength{\PaperHeight}
+\newlength{\PaperLeftMargin}
+\newlength{\PaperRightMargin}
+\newlength{\PaperTopMargin}
+\newlength{\PaperBottomMargin}
+\setlength{\PaperHeight}{29.7cm}
+\setlength{\PaperWidth}{42cm}
+\setlength{\PaperLeftMargin}{1cm}
+\setlength{\PaperRightMargin}{1cm}
+\setlength{\PaperTopMargin}{1cm}
+\setlength{\PaperBottomMargin}{1cm}
+\geometry{%
+	a3paper,
+	left=\PaperLeftMargin,
+	right=\PaperRightMargin,
+	top=\PaperTopMargin,
+	bottom=\PaperBottomMargin,
+}
+\usepackage{svg}
+\def\InkscapePath{./svg-inkscape/}
+\svgsetup{%
+	inkscapelatex=false,
+	inkscapeformat=pdf,
+	inkscapepath=\InkscapePath,
+	inkscapearea=page
+}
+\usepackage{xparse}
+\usepackage{xstring}
+\usepackage{array}
+\usepackage{titling}
+\usepackage{tgschola}
+\usepackage{tgheros}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{multicol,multirow}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage[x11names,table]{xcolor}%
+\usepackage[most]{tcolorbox}%
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tabularx}%
+\usepackage{booktabs}%
+\usepackage[absolute,overlay]{textpos}
+\usepackage{hyperref}
+\hypersetup{%
+	linktoc=all,%
+	pdfborder={0 0 0},%
+	pdftitle={Portfolio},%
+	pdfauthor={Arnott Ferels},%
+	pdfkeywords={Computation,Design,Tech},%
+}
+\usepackage{titlesec}
+\newcommand*{\SetupToc}{%
+	\titleformat{\chapter}{}{}{0pt}{}
+	\titlespacing*{\chapter}{0pt}
+	{*7}%
+	{*-15}%
+}
+\usepackage{calc}
+\usepackage{tikz}
+\usetikzlibrary{
+	arrows,
+	arrows.meta,
+	backgrounds,
+	calc,
+	positioning,
+	shapes,
+}
+\newlength{\ImageScaledWidth}
+\newlength{\ColumnGap}
+\setlength{\ColumnGap}{2cm}%
+\setlength{\columnsep}{\ColumnGap}%
+\newlength{\MinipageGap}
+\newlength{\HalfLineWidth}
+\newlength{\MinipageAWidth}
+\newlength{\MinipageBWidth}
+\newlength{\MinipageCWidth}
+\newdimen\ContentHeight
+\newdimen\ImageWidth
+\captionsetup{%
+	labelfont=rm,
+	textfont={footnotesize,rm,it},
+	justification=centering,
+	skip=2pt,
+}
+\setlength{\parindent}{0pt}
+\setlength{\intextsep}{0pt}
+\newcommand{\RemoveHttps}[1]{%
+	\StrSubstitute{#1}{https://}{}[\Result]%
+	\Result%
+}
+\newcommand{\RemoveHttpsAndQuery}[1]{%
+	\StrSubstitute{\StrBefore{#1}{?}}{https://}{}[\Result]%
+	\Result%
+}
+\renewcommand{\thechapter}{\ifnum\value{chapter}<10 0\fi\arabic{chapter}}
+\renewcommand{\chaptername}{}
+\titleformat{\chapter}[display]%
+{\normalfont\Huge\bfseries}%
+{%
+}%
+{0pt}%
+{}%
+\titlespacing*{\chapter}{0pt}{-2\baselineskip}{0pt}%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setcounter{page}{1}
+\fancyfoot[R]{\small\thepage}
+\makeatletter
+\let\ps@plain\ps@fancy
+\makeatother
+\setlength{\footskip}{11.3pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\usepackage{setspace}
+\setstretch{1.25}
+\def\TocSectionMarginBottom{\vspace{1.125cm}}%
+\newcommand{\ChapterSetTocAddData}[1]{%
+	\addtocontents{toc}{%
+		\protect\addvspace{0.5ex}
+	}%
+	\addtocontents{toc}{%
+		\setlength{\baselineskip}{1em}
+		\textcolor{gray}{%
+			\textit{%
+				\normalsize
+				\ignorespaces
+				#1 %
+			}%
+		}%
+		\par
+	}%
+	\addtocontents{toc}{%
+		\TocSectionMarginBottom
+	}%
+}%
+\newcommand{\ChapterSetDetailsData}[3]{%
+	\small
+	\begin{flushleft}
+		\textit{%
+			#1\\
+		}%
+		\vspace{3pt}%
+		\textcolor{gray}{%
+			\textit{%
+				#2
+			}%
+		}%
+		\\
+		\vspace{3pt}%
+		\footnotesize%
+		#3
+	\end{flushleft}
+}
+\newcommand\RuleAbstract{\textcolor{gray}{%
+		\noindent\rule{\linewidth}{0.001mm}\\%
+	}%
+}%
+\usepackage{ifthen}
+\newboolean{IsHalfPage}
+\newboolean{IsHalfPageLeftCol}
+\newboolean{IsHalfPageRightCol}
+\setboolean{IsHalfPage}{false}
+\setboolean{IsHalfPageLeftCol}{false}
+\setboolean{IsHalfPageRightCol}{false}
+\newcommand{\StartTwoColumnLayoutBeginMulticolsTwo}{%
+	\footnotesize%
+	\setlength{\columnsep}{\dimexpr(\PaperLeftMargin+\PaperRightMargin)}%
+	\begin{multicols}{2}[\raggedcolumns]%
+		}%
+		\newcommand{\EndTwoColumnLayoutEndMulticolsTwo}{%
+	\end{multicols}%
+}
+\newcommand{\StartTwoColumnLayoutNoOp}{}%
+\newcommand{\EndTwoColumnLayoutColumnBreak}{%
+	\columnbreak%
+}
+\newcommand\StartTwoColumnLayout{%
+	\ifthenelse{\boolean{IsHalfPage} \and \boolean{IsHalfPageRightCol}}%
+	{%
+		\StartTwoColumnLayoutNoOp%
+	}%
+	{%
+		\StartTwoColumnLayoutBeginMulticolsTwo%
+	}%
+}
+\newcommand\EndTwoColumnLayout{%
+	\ifthenelse{\boolean{IsHalfPage} \and \boolean{IsHalfPageLeftCol}}%
+	{%
+		\EndTwoColumnLayoutColumnBreak%
+	}%
+	{%
+		\EndTwoColumnLayoutEndMulticolsTwo%
+	}%
+}
+\newenvironment*{specialblock}{}{}%

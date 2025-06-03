@@ -1,0 +1,103 @@
+\setboolean{IsHalfPage}{false}%
+\setboolean{IsHalfPageLeftCol}{false}%
+\setboolean{IsHalfPageRightCol}{false}%
+\def\ChapterTitle{%
+	Algae Bio-façade System
+}
+\def\ChapterUrl{%
+	https://arnottferels.github.io/work/algae-bio-facade-system
+}
+\def\ChapterDescription{%
+	Innovating Integration for Sustainable Architectural Façade Design
+}
+\def\ChapterDetailsLine{%
+	Façade Ideas Competition -- 2019 | Façade Design; Façade Ideas; Optimization | West Jakarta, Indonesia
+}
+\def\ChapterDetailsTabular{%
+	\begin{tabular}{@{}ll}
+		\textbf{Type}          & Student Competition by Green Building Council Indonesia (GBCI)          \\
+		\textbf{Award}         & Place for Innovative Façades Ideas                                      \\
+		\textbf{Contributions} & Analysis, Concept, Façade Mapping \& Modeling                           \\
+		\textbf{Software}      & SketchUp, Rhino, Adobe Illustrator, Photoshop \& Microsoft Excel        \\
+		\textbf{Collaborators} & Cathleen Charity \& Oliver Kenny                                        \\
+		\textbf{URL}           & \textcolor{blue}{\footnotesize\texttt{\href{\ChapterUrl}{\ChapterUrl}}} \\
+	\end{tabular}
+}
+\def\ChapterAbstract{%
+	This study introduces a new bio-façade system in Indonesia, bringing innovation to sustainable architecture. The design focuses on mapping, modeling, and simulating the façade. The algae modules, categorized as Dark, Standard, and Light, adjust to sunlight levels, making the building more comfortable. Simulations show a significant reduction in the Overall Thermal Transfer Value (OTTV) to an impressive 35~$\text{W/m}^2$, setting a benchmark for energy efficiency. The project generates 131,460~kWh annually, reducing 295,346.8~grams of CO2 daily. It stands out as a model in sustainable architecture, demonstrating the potential of biophilic design in urban environments.
+}
+\StartTwoColumnLayout
+\chapter*{\ChapterTitle}\addcontentsline{toc}{chapter}{\ChapterTitle}
+\ChapterSetTocAddData{\ChapterDetailsLine}
+\ChapterSetDetailsData{\ChapterDescription}{\ChapterDetailsLine}{\ChapterDetailsTabular}
+\RuleAbstract
+\ChapterAbstract
+\section*{
+  Methodology
+ }
+\input{src/figures/algae-bio-facade-system--method.tex}
+\vfill
+\section*{
+  Climate-Responsive Design \& Functional Features
+ }
+\begin{minipage}{0.2\linewidth}
+	\input{src/figures/algae-bio-facade-system--features-01.tex}
+\end{minipage}
+\hfill
+\begin{minipage}{0.2\linewidth}
+	\input{src/figures/algae-bio-facade-system--features-02.tex}
+\end{minipage}
+\hfill
+\begin{minipage}{0.2\linewidth}
+	\input{src/figures/algae-bio-facade-system--features-03.tex}
+\end{minipage}
+\hfill
+\begin{minipage}{0.2\linewidth}
+	\input{src/figures/algae-bio-facade-system--features-04.tex}
+\end{minipage}
+\vfill
+\section*{
+  Facade Thermal Mapping \& Algae Module Placement Optimization
+ }
+\input{src/figures/algae-bio-facade-system--facade.tex}
+\vspace*{0.25cm}
+In this phase, mapping assessed thermal exposure for each facade section, crucial for simulating OTTV calculations. After determining OTTV values in the first (1) and second (2) simulations, the third simulation (3) identified optimal Algae module placement along solar path lines in Jakarta—specifically in the North, East, and South directions.
+\columnbreak%
+\section*{
+  Biofaçade System -- How the Façade System Works
+ }
+\input{src/figures/algae-bio-facade-system--biofacade-system.tex}
+When the building is exposed to substantial sunlight, the density of algae increases, creating additional shade and contributing to the maintenance of thermal and visual comfort. In the algae module, three specific types are distinguished: Dark, Standard, and Light. The algae facade facilitates adaptive shading in response to sunlight. As the building receives more sunlight, the algae density grows, providing heightened shading that ensures ongoing thermal and visual comfort.
+\vfill
+\section*{
+  Simulation \& Optimization
+ }
+\vspace*{-\baselineskip}%
+\subsection*{
+	Simulations 1 \& 2
+}
+\input{src/tables/algae-bio-facade-system--simulation-03-algae.tex}%
+\vspace*{0.5\baselineskip}%
+\subsection*{
+	Simulation 3 (Algae)
+}
+For the third simulation, the calculation involves utilizing the Algae bio-façade, with a 45\% replacement of glass.
+\vspace*{0.5\baselineskip}%
+\input{src/tables/algae-bio-facade-system--simulation-01-02.tex}%
+\subsection*{
+	References
+}
+\vspace*{-0.5\baselineskip}%
+\begin{itemize}[noitemsep]
+	\item[\hypertarget{ref:algae-ref1}{[1]}] Asahi performance data.
+	\item[\hypertarget{ref:algae-ref2}{[2]}] U-value for thermal transmittance, SC assumes a 40\% reduction from Sunergy Clear SNFL 6mm.
+	\item[\hypertarget{ref:algae-ref3}{[3]}] U-value for thermal transmittance, SC assumes a 40\% combined reduction from No. 2~\&~3.
+\end{itemize}
+\vfill
+\section*{
+  Results
+ }
+\vspace*{-\baselineskip}%
+The initial OTTV value without algae is 37~$\text{W/m}^2$, aiming for a targeted value of 35~$\text{W/m}^2$ and a maximum of 45. With a window-to-wall ratio (WWR) set at 70\%, approximately 4,382.02~$\text{m}^2$ (45\%) of the total facade area is covered by the algae facade. The algae facade generates 131,460~kWh/year, while the average energy consumption for office spaces is 250,000~kWh/year. Environmentally, it contributes to a daily reduction of 295,346.8~grams of CO2, totaling 107,801,582~grams annually, equivalent to 107,801.6~kilograms or 107.8~tons per year. The estimated heat production for the building is 657,300~kWh per year.
+\EndTwoColumnLayout
+\newpage

@@ -1,0 +1,96 @@
+\newlength{\FigureNurtureProcessBaseImageSize}
+\newlength{\FigureNurtureProcessFinalImageSize}
+\newlength{\FigureNurtureProcessImageGap}
+\def\FigureNurtureImagesPerColumn{5}
+\edef\FigureNurtureProcessColumnGapCount{%
+	\number\numexpr\FigureNurtureImagesPerColumn - 1\relax}
+\newcount\tempnum
+\tempnum=\numexpr10000 / \FigureNurtureImagesPerColumn\relax
+\edef\FigureNurtureProcessBaseImageSize{0.\the\tempnum}
+\setlength\FigureNurtureProcessImageGap{0.5cm}
+\setlength\FigureNurtureProcessFinalImageSize{%
+	\dimexpr\FigureNurtureProcessBaseImageSize
+	\dimexpr(
+	\paperwidth
+	-\PaperLeftMargin
+	-\PaperRightMargin
+	-\FigureNurtureProcessColumnGapCount\FigureNurtureProcessImageGap)
+	\relax
+}
+\newcommand{\FigureNurtureProcessDataForTabularFigures}[3]{%
+	\begin{minipage}[t]{\FigureNurtureProcessFinalImageSize}
+		#1%
+		\captionof*{figure}{%
+			\parbox{\FigureNurtureProcessFinalImageSize}{%
+				\centering
+				\textnormal{%
+					\textcolor{black}{%
+						#2%
+						\\
+					}
+				}
+				\scriptsize
+				#3%
+			}
+		}
+	\end{minipage}%
+}
+\def\Gap{\FigureNurtureProcessImageGap}%
+\def\Figure{\FigureNurtureProcessDataForTabularFigures}%
+\begin{table}[H]
+	\centering
+	\begin{tabularx}{\linewidth}{%
+		@{}c@{\hspace{\Gap}}c@{\hspace{\Gap}}c@{\hspace{\Gap}}c@{\hspace{\Gap}}c@{}
+		}
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-01.svg}
+		}%
+		{Context}%
+		{Describing the surrounding environment and setting.}       &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-02.svg}
+		}%
+		{River Path \& Ponds}%
+		{Examining the existing river and pond features.}           &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-03.svg}
+		}%
+		{Radiation Analysis}%
+		{Studying the impact of radiation in the area.}             &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-04.svg}
+		}%
+		{Spherical View Analysis}%
+		{Evaluating the panoramic view in a spherical perspective.} &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-05.svg}
+		}%
+		{Housing Placement}%
+		{Selecting locations for residential buildings.}              \\[\dimexpr\Gap]%
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-06.svg}
+		}%
+		{Features}%
+		{Identifying roads, ponds, rivers, paths, and green areas.} &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-07.svg}
+		}%
+		{Concept: Learning by Senses (LBS)}%
+		{Educational approach focused on sensory learning.}         &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-08.svg}
+		}%
+		{Design Adjustment \& TOD}%
+		{Revisiting the design using Transit-Oriented Development.} &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-09.svg}
+		}%
+		{Water Treatment}%
+		{Water purification for housing units.}                     &
+		\Figure{%
+			\includesvg[width=\linewidth]{src/graphics/nurture--process-10.svg}
+		}%
+		{Final Design}%
+		{}%
+	\end{tabularx}
+\end{table}

@@ -1,0 +1,26 @@
+\makeatletter
+\renewcommand\tableofcontents{%
+	\if@twocolumn
+		\@restonecoltrue\onecolumn
+	\else
+		\@restonecolfalse
+	\fi
+	\@starttoc{toc}%
+	\if@restonecol\twocolumn\fi
+}
+\makeatother
+{%
+	\Large
+	\huge
+	Contents
+	\bigskip
+}
+\begin{multicols}{2}
+	{%
+		\SetupToc%
+		\huge
+		\renewcommand{\baselinestretch}{1}\selectfont
+		\tableofcontents%
+	}
+\end{multicols}
+\newpage

@@ -1,0 +1,66 @@
+\setboolean{IsHalfPage}{false}%
+\setboolean{IsHalfPageLeftCol}{false}%
+\setboolean{IsHalfPageRightCol}{false}%
+\def\ChapterTitle{%
+	Acoustic Ray Simulation
+}
+\def\ChapterUrl{%
+	https://arnottferels.github.io/work/acoustic-ray-simulation
+}
+\def\ChapterDescription{%
+	Designing and Evaluating the KAI-MICE Auditorium Design
+}
+\def\ChapterDetailsLine{%
+	Professional Work -- 2023 | Computation; Auditorium Design; Acoustic Design | Bandung, Indonesia
+}
+\def\ChapterDetailsTabular{%
+	\begin{tabular}{@{}ll}
+		\textbf{Type}          & National Professional Competition by IAI West Java (Indonesian Institute of Architect West Java)    \\
+		\textbf{Contributions} & Research, Conceptual Design, Acoustic Modeling, Analysis and Simulation, Scripting \& Visualization \\
+		\textbf{Software}      & Rhino, Grasshopper, Pachyderm Acoustic \& Twinmotion                                                \\
+		\textbf{Collaborators} & Robby D. Juliardi, Ekky Maulidin, Ghina Z \& Zulafa Azmi                                            \\
+		\textbf{URL}           & \textcolor{blue}{\footnotesize\texttt{\href{\ChapterUrl}{\ChapterUrl}}}                             \\
+	\end{tabular}
+}
+\def\ChapterAbstract{%
+	This study details the creation of a specialized auditorium model, inspired by Architect's Data by Neufert. Employing Grasshopper for algorithmic modeling, parameters were refined, emphasizing ray distribution simulation for acoustic analysis via Ray Pachyderm Acoustical Simulation. Data visualization, featuring a heat map, illustrates ray counts at each step for seats. In conclusion, this method offers insights into sound ray behavior in acoustics.
+}
+\def\ChapterFrontmatter{%
+	\chapter*{\ChapterTitle}\addcontentsline{toc}{chapter}{\ChapterTitle}
+	\ChapterSetTocAddData{\ChapterDetailsLine}
+	\ChapterSetDetailsData{\ChapterDescription}{\ChapterDetailsLine}{\ChapterDetailsTabular}
+	\RuleAbstract%
+	\ChapterAbstract
+}
+\StartTwoColumnLayout
+\ChapterFrontmatter
+\section*{%
+  Method
+ }
+\input{src/figures/acoustic-ray-simulation--method.tex}
+\vfill
+\section*{%
+  Distribution of Sound Particles (Audio)
+ }
+\input{src/figures/acoustic-ray-simulation--distribution-01.tex}
+\columnbreak%
+\section*{%
+  Distribution of Sound Particles (Audio) -- \textit{(cont.)}
+ }
+\input{src/figures/acoustic-ray-simulation--distribution-02.tex}
+The diagram depicts the simulation in a 1530-seat auditorium, recording 61,208~Ray Curves (RC) for ATD. Red areas signal more than 10 sound reflections, while blue and yellow indicate 2 and 6 reflections, optimizing sound based on seat positions.
+\vfill
+\section*{%
+  Acoustic Material Recommendation -- Sound Absorption for Optimization
+ }
+\begin{minipage}[t]{0.55\linewidth}
+	\input{src/tables/acoustic-ray-simulation--acoustic-material-recommendation.tex}
+	The table outlines acoustic material recommendations for optimizing sound in the auditorium, considering material types, finishes, and absorption coefficients. Selection criteria include sound resonance, durability, and aesthetics. Follow these guidelines for enhanced sound quality and material durability in the auditorium.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.425\linewidth}
+	\input{src/figures/acoustic-ray-simulation--interior.tex}
+	Acoustic materials in the auditorium are optimized for the best sound absorption. From Rockwool on the walls to carpet on the floor, every element contributes to improving the room's sound quality.
+\end{minipage}
+\EndTwoColumnLayout
+\newpage

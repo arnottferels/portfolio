@@ -1,0 +1,81 @@
+\setboolean{IsHalfPage}{false}%
+\setboolean{IsHalfPageLeftCol}{false}%
+\setboolean{IsHalfPageRightCol}{false}%
+\def\ChapterTitle{%
+	Daylight Enhancement in Architectural Design
+}
+\def\ChapterUrl{%
+	https://arnottferels.github.io/work/daylight-enhancement-in-architectural-design
+}
+\def\ChapterDescription{%
+	Transforming a Double 5-Story Residences Project with Iterative Louver Concepts
+}
+\def\ChapterDetailsLine{%
+	Master's Architectural Modeling -- 2021 | Computation; Simulation; Optioneering | Central Jakarta, Indonesia
+}
+\def\ChapterDetailsTabular{%
+	\begin{tabular}{@{}ll}
+		\textbf{Type}       & Individual work                                                         \\
+		\textbf{Software}   & Rhino, Grasshopper, Ladybug, Honeybee \& Colibri                        \\
+		\textbf{Instructor} & Aswin Indraprastha                                                      \\
+		\textbf{URL}        & \textcolor{blue}{\footnotesize\texttt{\href{\ChapterUrl}{\ChapterUrl}}} \\
+	\end{tabular}
+}
+\def\ChapterAbstract{%
+	For an affordable double 5-story residences project, the original window design featuring a 10cm-long Egg Crate profile was revamped to incorporate a 50cm-long louver concept. Using the Brute Force approach through the Colibri Iterator Definition, the design underwent 50 iterations to assess the impact on illumination metrics like CDA, UDI, DF. The objective is to optimize daylight performance and adapt to specific design requirements through Design Explorer 2 analysis.
+}
+\def\ChapterFrontmatter{%
+	\chapter*{\ChapterTitle}\addcontentsline{toc}{chapter}{\ChapterTitle}
+	\ChapterSetTocAddData{\ChapterDetailsLine}
+	\ChapterSetDetailsData{\ChapterDescription}{\ChapterDetailsLine}{\ChapterDetailsTabular}
+	\RuleAbstract%
+	\ChapterAbstract
+}
+\StartTwoColumnLayout
+\ChapterFrontmatter
+\vspace*{\fill}
+\section*{
+  Method
+ }
+\vfill
+\input{src/figures/daylight-enhancement-in-architectural-design--method.tex}
+\vspace*{\fill}
+\columnbreak%
+\noindent
+\begin{minipage}[t]{0.5\linewidth}
+	\section*{
+	  Design Explorer
+	 }
+\end{minipage}%
+\begin{minipage}[t]{0.5\linewidth}
+	\raggedleft
+	\href{https://tt-acm.github.io/DesignExplorer/?ID=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Fybm90dGZlcmVscy9jb2xpYnJpL3JlZnMvaGVhZHMvbWFpbi8=}{\textnormal{View on Design Explorer 2} $\nearrow$}
+\end{minipage}
+\vfill
+\input{src/figures/daylight-enhancement-in-architectural-design--designexplorer.tex}
+\tcbset{%
+	SectionExposure/.style={%
+			sharp corners,
+			boxrule=0pt,
+			frame hidden,
+			borderline west={0.1pt}{0pt}{gray,dashed},
+			colback=white,
+			left=0.05\linewidth,%
+			right=0pt,
+			top=0pt,
+			bottom=0pt,
+			enhanced
+		}
+}
+\vspace{0pt}%
+\raggedleft
+\begin{tcolorbox}[SectionExposure, width=0.96\linewidth]%
+	\vspace{0.5cm}%
+	\subsection*{Exposure}
+	\vspace*{-\baselineskip}%
+	\input{src/figures/daylight-enhancement-in-architectural-design--exposure.tex}
+	This design project involves 50 iterations using the Brute Force method via the Colibri Iterator Definition. The process generates multiple ImageCaptures, customizable through Design Explorer 2 to meet specific design requirements.
+\end{tcolorbox}
+\vfill
+\EndTwoColumnLayout
+\newpage

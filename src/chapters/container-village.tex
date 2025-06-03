@@ -1,0 +1,132 @@
+\setboolean{IsHalfPage}{false}%
+\setboolean{IsHalfPageLeftCol}{false}%
+\setboolean{IsHalfPageRightCol}{false}%
+\def\ChapterTitle{%
+	Container Village
+}
+\def\ChapterUrl{%
+	https://arnottferels.github.io/work/YYYYYYYYYYYYYYYYYYYY
+}
+\def\ChapterDescription{%
+	Redefining Urban Living with Kampong Container
+}
+\def\ChapterDetailsLine{%
+	Professional Work -- 2019 | Urban Housing Research; Modular Design | East Jakarta, Indonesia
+}
+\def\ChapterDetailsTabular{%
+	\begin{tabular}{@{}ll}
+		\textbf{Type}          & Professional Competition by Perumnas (National Urban Development Corporation) \\
+		\textbf{Award}         & Top~10 \& Semifinalist                                                        \\
+		\textbf{Contributions} & Research, Concept, Design, BIM Modeling \& Visualization                      \\
+		\textbf{Software}      & Revit, Lumion \& Adobe Photoshop                                              \\
+		\textbf{Collaborators} & Cathleen Charity \& Oliver Kenny                                              \\
+	\end{tabular}
+}
+\def\ChapterAbstract{%
+	This project revolutionizes urban living in East Jakarta by employing an innovative housing approach using modular containers. Strategically placed near vital amenities, the development introduces two housing types, Type A and Type B, catering to different resident configurations. The inclusion of a plugin system boosts user mobility and facilitates an efficient, organic building process within the Kampong Container. Drawing inspiration from Indonesian culture, communal spaces on each floor cultivate a sense of community, encouraging self-economy and self-energy. Prioritizing sustainability and cultural values, the project addresses Jakarta's housing requirements while reshaping contemporary living standards.
+}
+\StartTwoColumnLayout
+\chapter*{\ChapterTitle}\addcontentsline{toc}{chapter}{\ChapterTitle}
+\ChapterSetTocAddData{\ChapterDetailsLine}
+\ChapterSetDetailsData{\ChapterDescription}{\ChapterDetailsLine}{\ChapterDetailsTabular}
+\RuleAbstract
+\ChapterAbstract
+\vspace{\baselineskip}%
+\par%
+\edef\MinipageHeight{\the\dimexpr(\pagegoal-\pagetotal-\textheight-\baselineskip)\relax}
+\begin{minipage}[t][\MinipageHeight][t]{\linewidth}
+	\section*{
+	  Introduction
+	 }
+	An innovative housing project in East Jakarta repurposes a vacant plot initially designated for high-rises. Strategically located near TransJakarta bus stops, mosques, and schools, the site leverages Jakarta's container accessibility. Challenges include ergonomic adjustments and affordable housing demand. Opportunities involve surplus containers, Gen Y and Z entering the market, and addressing wealth gaps. The project aims to meet Jakarta's housing needs by capitalizing on container advantages and embracing the city's unique characteristics.
+	\vfill
+	\section*{
+	  Method: Unit Configuration
+	 }
+	\input{src/figures/container-village--method-unit-configuration.tex}
+	\vfill
+	\input{src/figures/container-village--physical-model.tex}
+\end{minipage}
+\columnbreak%
+\begin{minipage}[t][\textheight][t]{\linewidth}
+	\section*{
+	  Development Phase
+	 }
+	\vspace{-0.25cm}%
+	\input{src/figures/container-village--development-phase.tex}
+	\vfill
+	\section*{
+	  Plugin System
+	 }
+	\vspace{-0.25cm}%
+	\begin{center}
+		\begin{minipage}[t]{0.8\linewidth}
+			\input{src/figures/container-village--plugin-system.tex}
+		\end{minipage}
+	\end{center}
+	\vspace{-\baselineskip}
+	\vfill
+	\vspace{-\baselineskip}
+	\section*{
+	  Design
+	 }
+	\vspace{-0.25cm}%
+	\setlength{\MinipageGap}{0.5cm}
+	\setlength{\MinipageAWidth}{\dimexpr ((0.5875\linewidth) - (\MinipageGap))\relax}%
+	\setlength{\MinipageBWidth}{\dimexpr (\linewidth - \MinipageAWidth - \MinipageGap)\relax}
+	\begin{minipage}[t]{\MinipageAWidth}%
+		\input{src/figures/container-village--perspective-01.tex}
+	\end{minipage}%
+	\hspace{\MinipageGap}%
+	\begin{minipage}[t]{\MinipageBWidth}%
+		\input{src/figures/container-village--perspective-02.tex}
+	\end{minipage}%
+	\vfill
+\end{minipage}
+\newpage
+\setlength{\columnsep}{0.25cm}%
+\begin{multicols}{2}
+	\input{src/figures/container-village--level-01.tex}
+	\input{src/figures/container-village--level-02.tex}
+\end{multicols}
+\section*{
+  Concept: Self-economy
+ }
+\input{src/figures/container-village--concept-self-economy.tex}
+The communal spaces on each floor deck and atrium, inspired by Indonesian culture, encourage a sense of togetherness and gathering. The Indonesian cultural characteristics of the market concept in the Kampong Container (Container Village) can also contribute to the local economy.
+\vfill
+\begin{minipage}{\linewidth}
+	\setlength{\MinipageGap}{0.5cm}
+	\setlength{\MinipageAWidth}{\dimexpr ((0.55\linewidth) - (\MinipageGap))\relax}%
+	\setlength{\MinipageBWidth}{\dimexpr (\linewidth - \MinipageAWidth - \MinipageGap)\relax}
+	\begin{minipage}[t]{\MinipageAWidth}%
+		\input{src/figures/container-village--section-aa.tex}
+	\end{minipage}%
+	\hspace{\MinipageGap}%
+	\begin{minipage}[t]{\MinipageBWidth}%
+		\input{src/figures/container-village--section-bb.tex}
+	\end{minipage}%
+\end{minipage}
+\columnbreak%
+\setlength{\columnsep}{0.25cm}%
+\begin{multicols}{2}
+	\input{src/figures/container-village--level-03.tex}
+	\input{src/figures/container-village--level-04.tex}
+\end{multicols}
+\setlength{\columnsep}{0.25cm}%
+\begin{multicols}{2}
+	\section*{
+	  Concept: Self-energy
+	 }
+	\input{src/figures/container-village--concept-self-energy.tex}
+	\vspace{-\baselineskip}%
+	The rooftop and decks of each floor are equipped with ecological independent energy sources such as vertical gardens, solar panels, fish ponds, and wind turbines.
+	\columnbreak%
+	\section*{
+	  Concept: Self-installation
+	 }
+	\input{src/figures/container-village--concept-self-installation.tex}
+	\vspace{-\baselineskip}%
+	The plugin system, which allows for user mobility, contributes to the high efficiency and organic building process in the Kampung Kontainer (Container Village).
+\end{multicols}
+\EndTwoColumnLayout

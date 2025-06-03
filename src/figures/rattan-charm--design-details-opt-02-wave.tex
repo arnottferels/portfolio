@@ -1,0 +1,31 @@
+﻿%
+\ImageWidth=\dimexpr(\linewidth)\relax
+\def\FigureRattanCharmDesignDetailsOptTwoPerspective{%
+	\includesvg[width=\linewidth]{src/graphics/rattan-charm--design-details-opt-02-wave.svg}
+}
+\def\Figure{\FigureRattanCharmDesignDetailsOptTwoPerspective}
+\settototalheight{\ContentHeight}{\Figure}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{\linewidth}
+		\FigureRattanCharmDesignDetailsOptTwoPerspective
+		\begin{picture}(0,0)
+			\put(0.7\ImageWidth,0.1\ContentHeight){%
+				\parbox{0.3\ImageWidth
+					-3pt%
+				}{%
+					\raggedright
+					{%
+						\textnormal{%
+							\footnotesize
+							Based on the iterations conducted, the design of Option 2 Wave consists of 3 elongated panels locked along their length.
+						}
+					}
+				}
+			}
+		\end{picture}
+	\end{minipage}
+	\label{
+		fig:rattan-charm--design-details-opt-02-wave
+	}
+\end{figure}

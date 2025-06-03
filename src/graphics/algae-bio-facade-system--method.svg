@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="42" fill="none">
+  <path stroke="#000" stroke-width=".5" d="M414.3 23.3h80.5v18.5h-80.5zm-78 0h71.5v18.5h-71.5zm-90 0h71.5v18.5h-71.5zm-78 0h71.5v18.5h-71.5zm-64 0h44.5v18.5h-44.5zm-51 0h44.5v18.5H53.3zm-53 0h45.5v18.5H.3zm336-23h158.5v16.5H336.3zm-168 0h149.5v16.5H168.3zM.3.3h148.5v16.5H.3z"/>
+  <path fill="#000" d="m330 8.5-4.5 5.6V3zm-169 0-4.5 5.6V3z"/>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="257.7" y="35.3">Façade module</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="179.3" y="35.3">Basic geometry</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="361.9" y="36.3">OTTV</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="429" y="35.3">Bio-façade ratio</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="112.9" y="35.3">Function</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="62.1" y="35.3">Climate</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="10.8" y="35.3">Context</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="371.4" y="12.3">Simulation &amp; Optimization</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="228" y="12.3">Modeling</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="7" letter-spacing="0em" style="white-space:pre"><tspan x="61.7" y="12.3">Analysis</tspan></text>
+</svg>

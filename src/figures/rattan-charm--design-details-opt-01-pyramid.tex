@@ -1,0 +1,31 @@
+﻿%
+\ImageWidth=\dimexpr(\linewidth)\relax
+\def\FigureRattanCharmDesignDetailsOptOnePerspective{%
+	\includesvg[width=\linewidth]{src/graphics/rattan-charm--design-details-opt-01-pyramid.svg}
+}
+\def\Figure{\FigureRattanCharmDesignDetailsOptOnePerspective}
+\settototalheight{\ContentHeight}{\Figure}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{\linewidth}
+		\FigureRattanCharmDesignDetailsOptOnePerspective
+		\begin{picture}(0,0)
+			\put(0.7\ImageWidth,0.1\ContentHeight){%
+				\parbox{0.3\ImageWidth
+					-3pt%
+				}{%
+					\raggedright
+					{%
+						\textnormal{%
+							\footnotesize
+							Based on the iterations conducted, the axonometric design of Option 1 Pyramid is composed of several $\textnormal{4} \times \textnormal{6}$ panels, totaling 24~panels arranged diagonally.
+						}
+					}
+				}
+			}
+		\end{picture}
+	\end{minipage}
+	\label{
+		fig:rattan-charm--design-details-opt-01-pyramid
+	}
+\end{figure}

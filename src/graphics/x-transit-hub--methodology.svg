@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="497" height="230" fill="none">
+  <path stroke="#000" stroke-width=".1" d="M200 64v-5a6 6 0 0 1 6-6h2m38 0h1a6 6 0 0 1 6 6v5m103 34h2a6 6 0 0 0 6-6v-8.8m8-15.2h-8m0 0h-8m8 0V53.7m0 14.3v15.2M356 38h2a6 6 0 0 1 6 6v9.7m0 0h-8m8 29.5h-8M165 98h2a6 6 0 0 0 6-6v-9m8-15h-8m0 0h-8m8 0V53m0 15v15m-8-45h2a6 6 0 0 1 6 6v9m0 0h-8m8 30h-8m110-14.5h-3m3 0V56a3 3 0 0 1 3-3m-3 15.5V80a3 3 0 0 0 3 3m30-30.2h3m0 0h3m-3 0V68m0-15.2V41a3 3 0 0 1 3-3m-3 30h3m-3 0v15.2m-3 0h3m0 0h3m-3 0V95a3 3 0 0 0 3 3M121 53h3m0 0h3m-3 0V38m0 15v15m-3-30h3m0 0h3m-6 30h3m0 0h3m-6 15h3m0 0h3m-3 0v15m-3 0h3m0 0h3M37 61h3m0 0v-5.2c0-1.5 1.3-2.8 2.8-2.8M40 61v7m0 0h2.8M40 68v9m-3 0h3m0 0v3.2c0 1.5 1.3 2.8 2.8 2.8M71 53h3m0 0h3m-3 0v15m0-15V41a3 3 0 0 1 3-3m-6 30h3m0 0h3m-3 0v15m-3 0h3m0 0h3m-3 0v12a3 3 0 0 0 3 3m413-30a6 6 0 0 1 6 6v34a6 6 0 0 1-6 6H293.2M9.8 165H7a6 6 0 0 1-6-6v-39a6 6 0 0 1 6-6h286.2m0 0V87.7M325 165h18m95 0h4m-47 0h4m-132 0h4m-44 0h4m-181 0h2.7m0 0h2.7m-2.7 0v26.7c0 1.4 1.2 2.6 2.7 2.6M143 165h-39.9 2.9m37 0h-37m37 0h-2.9m2.9 0h3m-3 0v12a3 3 0 0 1-3 3m-36.9 15h2.9m0 0h3m-3 0v14m-2.9 0h2.9m0 0h3M391 64v-5a6 6 0 0 1 6-6h2.8m28.4 0h1.8a6 6 0 0 1 6 6v5m-26 4h4m-308 97v12.2a3 3 0 0 0 3 3m31 14.8h6m-6 14h6M448 68h4m-232 0h4m-51 97h-8m8 0h8m-8 0v38a6 6 0 0 1-6 6h-2m0-14h8"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M442.3 219.3v7.4h7.4v-7.4z"/>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="444.2" y="225">A</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="455" y="224.6">Arch vocabulary</tspan></text>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M399 219h8v8h-8z"/>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="401.3" y="225">P</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="412" y="224.6">Parameter</tspan></text>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M363 219h9v8h-9z"/>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="365.1" y="225">M</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="377" y="224.6">Modal</tspan></text>
+  <path stroke="#000" stroke-miterlimit="8" stroke-width=".5" d="M313 219h9v8h-9z"/>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="327" y="224.6">Input /Output</tspan></text>
+  <path stroke="#939393" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".1" d="M493 120H340v86h153zm-165 0H178v86h150zm-160 0H4v107h164zM493 1H369v107h124zM359 1H178v107h181zM168 1H4v107h164z"/>
+  <path fill="#fff" stroke="#939393" stroke-miterlimit="8" stroke-width=".5" d="M146 205h19v9h-19z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M109.3 205.3v8.4h30.5v-8.4z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M55 205h48v9H55z"/>
+  <path fill="#fff" stroke="#939393" stroke-miterlimit="8" stroke-width=".5" d="M146 191h19v9h-19z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M109.3 191.3v8.4h30.5v-8.4z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M55 191h48v9H55z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M109.3 176.3v8.4h30.5v-8.4z"/>
+  <path stroke="#000" stroke-miterlimit="8" stroke-width=".1" d="M109 169h31"/>
+  <path fill="#fff" stroke="#000" stroke-miterlimit="8" stroke-width=".5" d="M442 161h47v9h-47z"/>
+  <path fill="#fff" stroke="#000" stroke-miterlimit="8" stroke-width=".3" d="M399 161h39v9h-39z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M343 161h52v9h-52z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M271.3 161.3v8.4h53.4v-8.4z"/>
+  <path fill="#fff" stroke="#000" stroke-miterlimit="8" stroke-width=".3" d="M231 161h36v9h-36z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M181 161h46v9h-46z"/>
+  <path fill="#fff" stroke="#939393" stroke-miterlimit="8" stroke-width=".5" d="M146 161h19v9h-19z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M109.3 161.3v8.4h30.5v-8.4z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M55 161h48v9H55z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M10 161h39v9H10z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M355.8 93.3v8.5h-41.6v-8.5zm-191 0v8.5h-37.6v-8.5z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M121 93H77v9h44z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M355.8 78.3v8.5h-41.6v-8.5z"/>
+  <path fill="#fff" stroke="#393464" stroke-width=".5" d="M307.8 78.3v8.5h-29.6v-8.5z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M164.8 78.3v8.5h-37.6v-8.5z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M121 78H77v9h44z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M71 78H43v9h28z"/>
+  <path fill="#fff" stroke="#000" stroke-miterlimit="8" stroke-width=".5" d="M37 72H7v9h30z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M452.3 64.3v7.5h37.4v-7.5z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M448 64h-34v8h34z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M410 64h-38v8h38z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M355.8 64.3v7.5h-41.6v-7.5z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M272 64h-48v9h48z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M220 64h-39v9h39z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M164.8 64.3v8.5h-37.6v-8.5z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M121 64H77v9h44z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M71 64H43v9h28z"/>
+  <path fill="#fff" stroke="#000" stroke-miterlimit="8" stroke-width=".5" d="M37 57H7v9h30z"/>
+  <path fill="#fff" stroke="#393464" stroke-width=".5" d="M427.8 49.3v8.5h-27.6v-8.5z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M355.8 49.3v8.5h-41.6v-8.5z"/>
+  <path fill="#fff" stroke="#393464" stroke-width=".5" d="M307.8 49.3v8.5h-29.6v-8.5z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-dasharray="0.54 0.41" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M246 49h-38v9h38z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M164.8 49.3v8.5h-37.6v-8.5z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M121 49H77v9h44z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-width=".8" d="M71 49H43v9h28z"/>
+  <path fill="#fff" stroke="#C60F1C" stroke-width=".5" d="M355.8 34.3v8.5h-41.6v-8.5zm-191 0v8.5h-37.6v-8.5z"/>
+  <path fill="#fff" stroke="#005AAB" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".5" d="M121 34H77v9h44z"/>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="125.8" y="217.2">Voronoi  ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="66.7" y="217.2">TOD &amp; Local regulation ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="148.9" y="210.5">Obj B</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="116.4" y="210.5">Radius</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="72.5" y="210.5">Rules</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="198.2">Total PS</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="148.9" y="196.5">Obj C</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="117.4" y="196.5">Count</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="70.7" y="196.5">Spatial</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="193.2">PS Radius Area</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="188.2">PS to PS Average Route Distance</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="59.6" y="188.2">Regulation &amp; Regional vision ↓</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="14.5" y="188.2">Cost estimates integrated</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="183.2">PS to T2 Average Route Distance</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="18.5" y="183.2">Sub -outputs included</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="114.4" y="181.5">Distance</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="285.2" y="178.2">Optimize linkage between PS</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="178.2">PS to T1 Average Route Distance</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="23.1" y="178.2">Efficient algorithm</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="343" y="173.2">K-means clustering &amp; </tspan><tspan x="343" y="177.2">other goal-based method ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="296.4" y="173.2">Design alternative ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="183.8" y="173.2">Evolutionary optimization (NSGA-2)</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="173.2">↑ </tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="158" y="173.2">TOD</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="37.5" y="173.2">A-star ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="446.1" y="166.5">Design guideline</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="403.4" y="166.5">Best solution</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="347.5" y="166.5">Clustering criteria</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="275.2" y="166.5">Solution candidates</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="233.8" y="166.5">Optimization</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="185.5" y="166.5">Multi-objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="148.9" y="166.5">Obj A</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="113.1" y="166.5">Proximity</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="62.3" y="166.5">Served/service</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="12.8" y="166.5">Shortest route</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="119.8" y="158.2">SPA (A-star) ↓</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="87.6" y="158.2">PS &amp; AN ↓</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="369" y="150.6">: A design guideline.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="343" y="150.6">Results</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="207" y="150.6">: Solution candidates (SC)</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="150.6">Results</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="33" y="150.6">: Reasonable set of objectives parameter.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="7" y="150.6">Results</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="369" y="145.6">: Filtering SC based on design/solution criteria.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="343" y="145.6">Objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="207" y="145.6">: Minimizing values between objectives set.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="145.6">Objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="33" y="145.6">: Specify and set the objectives.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="7" y="145.6">Objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="478" y="136.6">Goals</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="452" y="136.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="407" y="136.6">Parameter</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="380" y="136.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="343" y="136.6">Source</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="314" y="136.6">Goals</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="288" y="136.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="244" y="136.6">Parameter</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="217" y="136.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="136.6">Source</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="154" y="136.6">Goals</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="124" y="136.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="77" y="136.6">Parameter</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="47" y="136.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="7" y="136.6">Source</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="369" y="128.9">Clustering &amp; selecting the best solution</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="207" y="128.9">Optimizing the objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="33" y="128.9">Defining the objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="122.7" y="105.2">Observation &amp; data analysis ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="319" y="98.5">Configuration</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="139.9" y="98.5">Scale</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="87.4" y="98.5">Solid/Void</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="448.8" y="93.2">Iterative adjustments of nodes</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="446" y="88.2">Maintains initial mesh topology</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="432.4" y="83.2">Improves mesh quality by adjusting nodes</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="320.8" y="83.5">Distribution</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="286.4" y="83.5">Nodes</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="139.7" y="83.5">Space</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="84" y="83.5">Neg./Positive</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="48.1" y="83.5">Pattern</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="386" y="77.2">Predictive path ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="198" y="77.2">Data merging ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="458.2" y="75.2">Laplacian smoothing ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="294.7" y="75.2">Targets ↓</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="16.8" y="76.5">Obs.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="456.1" y="69">Simple trails</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="418.6" y="69">Smoothing</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="376.5" y="69">Human trail</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="322.1" y="69">Interaction</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="131.3" y="69.5">Simultaneity</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="87.1" y="69.5">Behaviour</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="47.9" y="69.5">Context</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="228.8" y="69.5">Attraction nodes</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="185.1" y="69.5">Superimpose</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="295.5" y="60.2">Agents ↑</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="11.7" y="62.5">Big Data</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="406" y="54.5">Routes</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="320.6" y="54.5">Composition</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="285.4" y="54.5">People</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="211.1" y="54.5">Human model</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="135.1" y="54.5">Harmony</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="85.6" y="54.5">Walkability</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="51.8" y="54.5">Map</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="328.1" y="39.5">Weave</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="137.2" y="39.5">Rhythm</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="5" letter-spacing="0em" style="white-space:pre"><tspan x="82.1" y="39.5">Typical Traffic</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="3" letter-spacing="0em" style="white-space:pre"><tspan x="263.3" y="36.2">Agent-based modeling (ABM) →</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="397" y="31.6">: Smooth trail.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="372" y="31.6">Results</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="207" y="31.6">: Human trail and potential composition (HTPC).</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="31.6">Results</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="33" y="31.6">: Unique context profile and characteristics (UCPC).</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="7" y="31.6">Results</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="397" y="26.6">: Simplifying the HTPC.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="372" y="26.6">Objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="207" y="26.6">: Predicting human movement behavior based on the UCPC.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="26.6">Objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" letter-spacing="0em" style="white-space:pre"><tspan x="33" y="26.6">: Understanding the context and human behavior.</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="7" y="26.6">Objectives</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="476" y="17.6">Goals</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="456" y="17.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="420" y="17.6">Parameter</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="401" y="17.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="372" y="17.6">Source</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="345" y="17.6">Goals</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="310" y="17.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="259" y="17.6">Parameter</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="225" y="17.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="181" y="17.6">Source</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="154" y="17.6">Goals</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="125" y="17.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="78" y="17.6">Parameter</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="47" y="17.6">→</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="4" font-style="italic" letter-spacing="0em" style="white-space:pre"><tspan x="7" y="17.6">Source</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="397" y="9.9">Simplifying the trails</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="207" y="9.9">Predicting dynamic model of complex system</tspan></text>
+  <text xml:space="preserve" fill="#000" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="33" y="9.9">Data gathering &amp; modeling preparation</tspan></text>
+  <path fill="#000" d="M343 123h16v8h-16z"/>
+  <text xml:space="preserve" fill="#fff" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="349.3" y="129.4">6</tspan></text>
+  <path fill="#000" d="M181 123h16v8h-16z"/>
+  <text xml:space="preserve" fill="#fff" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="187.3" y="129.4">5</tspan></text>
+  <path fill="#000" d="M7 123h16v8H7z"/>
+  <text xml:space="preserve" fill="#fff" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="13.3" y="129.4">4</tspan></text>
+  <path fill="#000" d="M372 4h16v8h-16z"/>
+  <text xml:space="preserve" fill="#fff" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="378.3" y="10.4">3</tspan></text>
+  <path fill="#000" d="M181 4h16v8h-16z"/>
+  <text xml:space="preserve" fill="#fff" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="187.3" y="10.4">2</tspan></text>
+  <path fill="#000" d="M7 5h16v8H7z"/>
+  <text xml:space="preserve" fill="#fff" font-family="TeX Gyre Schola" font-size="6" font-weight="bold" letter-spacing="0em" style="white-space:pre"><tspan x="13.3" y="11.4">1</tspan></text>
+</svg>

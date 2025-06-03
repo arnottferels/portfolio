@@ -1,0 +1,37 @@
+\pagestyle{empty}%
+\newgeometry{%
+	margin=1.25cm
+}
+\newcommand{\TheAuthor}{\textbf{Arnott Ferels}}%
+\newcommand{\TheTitle}{Portfolio}%
+\newcommand{\Email}{arnott.ferels@gmail.com}%
+\newcommand{\LinkedIn}{https://linkedin.com/in/arnottferels}%
+\newcommand{\Website}{https://arnottferels.github.io}%
+\begin{tikzpicture}[remember picture, overlay]
+	\node[anchor=center, inner sep=0] at (current page.center) {%
+		\includesvg[width=\paperwidth,keepaspectratio]{src/graphics/cover.svg}
+	};
+\end{tikzpicture}
+\begin{center}%
+	{%
+		\raggedright
+		\vspace{-\baselineskip}
+		{%
+			\fontsize{36pt}{0pt}\selectfont \TheAuthor \par%
+		}
+		\vspace{1cm}%
+		\vspace{-\baselineskip}
+		{%
+			\fontsize{32pt}{20pt0pt}\selectfont \TheTitle \par%
+		}
+	}%
+	\vfill
+	{%
+		\raggedleft
+		\huge \href{mailto:\Email}{\Email} \par%
+		\huge \href{\LinkedIn}{\RemoveHttps{\LinkedIn}} \par
+		\huge \href{\Website}{\RemoveHttps{\Website}} \par
+	}%
+\end{center}%
+\restoregeometry
+\newpage

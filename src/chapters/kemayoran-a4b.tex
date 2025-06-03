@@ -1,0 +1,115 @@
+\setboolean{IsHalfPage}{false}%
+\setboolean{IsHalfPageLeftCol}{false}%
+\setboolean{IsHalfPageRightCol}{false}%
+\def\ChapterTitle{%
+	Kemayoran A4B Low-Cost Residences
+}
+\def\ChapterUrl{%
+	https://arnottferels.github.io/work/kemayoran-a4b
+}
+\def\ChapterDescription{%
+	Harmonizing Sustainability and Affordability in Post-COVID Urban Living
+}
+\def\ChapterDetailsLine{%
+	Master's Design Studio 1 -- 2021 | Low-cost Housing Research; Apartment Design; Design Optimization | Central Jakarta, Indonesia}
+\def\ChapterDetailsTabular{%
+	\begin{tabular}{@{}ll}
+		\textbf{Type}     & Individual work                                                                    \\
+		\textbf{Software} & Revit, Rhino, Grasshopper, Galapagos, Ladybug Tools, Twinmotion \& Adobe Photoshop \\
+		\textbf{Advisor}  & Woerjantari Kartidjo                                                               \\
+		\textbf{URL}      & \textcolor{blue}{\footnotesize\texttt{\href{\ChapterUrl}{\ChapterUrl}}}            \\
+	\end{tabular}
+}
+\def\ChapterAbstract{%
+	This study aims to create designs for government housing in Kemayoran, Jakarta, specifically for people with lower incomes. The approach is innovative, focusing on changing how buildings are designed. Despite challenges from the COVID-19 pandemic, the project transforms urban areas by combining flexibility and environmental consideration. The design incorporates nature-friendly concepts, including communal green spaces. Tools like the Galapagos Solver are used to shape the exteriors of buildings and adapt interiors based on the weather. The primary focus is on natural cooling and protection from the sun. The research suggests that planning cities this way results in homes that meet current needs and address significant challenges in the future.
+}
+\def\ChapterFrontmatter{%
+	\chapter*{\ChapterTitle}\addcontentsline{toc}{chapter}{\ChapterTitle}
+	\ChapterSetTocAddData{\ChapterDetailsLine}
+	\ChapterSetDetailsData{\ChapterDescription}{\ChapterDetailsLine}{\ChapterDetailsTabular}
+	\RuleAbstract%
+	\ChapterAbstract
+}
+\StartTwoColumnLayout
+\ChapterFrontmatter
+\vfill
+\noindent
+\hyphenpenalty=10000
+\begin{minipage}[t]{0.55\linewidth}
+	\section*{%
+	  Issues \& Strategies
+	 }
+	\input{src/tables/kemayoran-a4b--issues-and-strategies}
+	\subsection*{Construction Context}
+	\input{src/tables/kemayoran-a4b--construction-context}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\linewidth}
+	\section*{%
+	  Concept
+	 }
+	\input{src/figures/kemayoran-a4b--concept-sketch.tex}
+	\vspace{\baselineskip}%
+	\input{src/figures/kemayoran-a4b--concept-mass.tex}
+\end{minipage}
+\vfill
+\input{src/figures/kemayoran-a4b--axonometric-context.tex}
+\columnbreak%
+\section*{%
+  Optimization
+ }
+\begin{center}
+	\noindent
+	\begin{minipage}[t]{0.55\linewidth}
+		\input{src/figures/kemayoran-a4b--optimization.tex}
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.4\linewidth}
+		In response to challenges posed by the COVID-19 pandemic, the architecture prioritizes adaptability. By using tools like the Galapagos Solver, the project strategically adjusts external appearances and spatial arrangements to facilitate natural cooling and protect against radiation, promoting sustainability.
+		\vspace{\baselineskip}%
+		\newline%
+		Upon evaluating both designs, Iteration A emerges as the preferred solution. Achieving a~$14^\circ$ rotation from North in 38~minutes and 21~seconds, it records an annual solar radiation of 18.723~million~$\text{kWh/m}^2$ (a 5.83\% increase from Iteration B). Despite a double-loaded design and relying on the Vertical Pocket system for tower comfort, Iteration A excels in floor efficiency for the targeted 3{,}000 population, obtaining the lowest ASR ranking.
+		\vspace{\baselineskip}%
+		\newline%
+		On the other hand, Iteration B, completed in 38~minutes and 20~seconds, adopts a 14° angle from North, resulting in an ASR of 17.630~million~$\text{kWh/m}^2$. While maintaining the lowest ASR rank and providing more open spaces, it compromises on floor efficiency above the refuge floor and relies on the Vertical Pocket system for the comfort of the 3000-person target.
+	\end{minipage}
+\end{center}
+\section*{%
+  Features
+ }
+\begin{center}
+	\begin{minipage}{0.8\linewidth}
+		\input{src/figures/kemayoran-a4b--features.tex}
+	\end{minipage}
+\end{center}
+\section*{%
+  Design
+ }
+\input{src/figures/kemayoran-a4b--design.tex}
+\EndTwoColumnLayout
+\begin{minipage}[t]{0.3\linewidth}
+	\section*{%
+	  Features
+	 }
+	\input{src/figures/kemayoran-a4b--axonometric.tex}%
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.7\linewidth}
+	\section*{%
+	  Unit config
+	 }
+	\input{src/figures/kemayoran-a4b--unit-config.tex}
+	\vspace{0.5cm}%
+	\small
+	\setlength{\columnsep}{0.75cm}
+	\begin{multicols}{3}
+		In this design, various plans have been employed to accommodate different living spaces for different needs. The Standard Studio (18~$\text{m}^2$) designed for one person can be expanded into a larger Two-Bedroom (36~$\text{m}^2$) and further to a spacious Corner Three-Bedroom (54~$\text{m}^2$). Shared areas promote a sense of community among neighbors, while well-planned paths facilitate easy movement.
+		\newline%
+		Moreover, the design focuses on inclusivity and utility, offering both small and large apartments with attractive views. Accessible options, such as the Accessible Studio (36~$\text{m}^2$) and Corner Accessible Studio (36~$\text{m}^2$), are integrated to cater to a diverse range of residents.
+	\end{multicols}
+	\section*{%
+	  Drawing
+	 }
+	\input{src/figures/kemayoran-a4b--drawing.tex}
+\end{minipage}
+\newpage

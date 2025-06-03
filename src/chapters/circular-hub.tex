@@ -1,0 +1,86 @@
+\setboolean{IsHalfPage}{false}%
+\setboolean{IsHalfPageLeftCol}{false}%
+\setboolean{IsHalfPageRightCol}{false}%
+\def\ChapterTitle{%
+	Circular Hub
+}
+\def\ChapterUrl{%
+	https://arnottferels.github.io/work/circular-hub
+}
+\def\ChapterDescription{%
+	Lingkaran Hubung - Community Integration through Ecosystem, Culinary \& Education
+}
+\def\ChapterDetailsLine{%
+	National Student Competition -- 2018 | Placemaking; Inclusive Design; Design Participatory  | Central Jakarta, Indonesia
+}
+\def\ChapterDetailsTabular{%
+	\begin{tabular}{@{}ll}
+		\textbf{Type}          & Professional Competition by Perumnas (National Urban Development Corporation) \\
+		\textbf{Award}         & Top 10 \& Favorite                                                            \\
+		\textbf{Contributions} & Research, Concept, Design, Modeling \& Visualization                          \\
+		\textbf{Software}      & SketchUp, Lumion, Photoshop \& Illustrator                                    \\
+		\textbf{Collaborators} & Steven Verdianta \& Billy Kurniawan                                           \\
+		\textbf{URL}           & \textcolor{blue}{\footnotesize\texttt{\href{\ChapterUrl}{\ChapterUrl}}}       \\
+	\end{tabular}
+}
+\def\ChapterAbstract{%
+	This project signifies a transformative change at Jakarta's Kebon Melati Reservoir (KMR), establishing connections among communities through a circular design, inclusive culinary spaces, and versatile platforms. The primary objectives include boosting the local economy and addressing Nature Deficit Disorder, creating a harmonious environment for community growth.	Established in 1966, KMR holds a vital role in Jakarta, strategically positioned between slums and commercial areas, near landmarks like Grand Indonesia Mall, Thamrin Residence, and Mall. Serving as a connecting bridge, the reservoir dynamically transforms, reflecting the principles of Jurgen Habermas, the German philosopher.
+}
+\def\ChapterFrontmatter{%
+	\chapter*{\ChapterTitle}\addcontentsline{toc}{chapter}{\ChapterTitle}
+	\ChapterSetTocAddData{\ChapterDetailsLine}
+	\ChapterSetDetailsData{\ChapterDescription}{\ChapterDetailsLine}{\ChapterDetailsTabular}
+	\RuleAbstract%
+	\ChapterAbstract
+}
+\StartTwoColumnLayout
+\ChapterFrontmatter
+\section*{
+  Generate -- Inclusive Architectural Solutions for Community Enrichment
+ }
+\noindent
+\begin{minipage}[t]{\linewidth}
+	\hspace*{\fill}
+	\begin{minipage}[t]{0.325\linewidth}
+		\input{src/figures/circular-hub--generate-01.tex}
+	\end{minipage}
+	\begin{minipage}[t]{0.325\linewidth}
+		\input{src/figures/circular-hub--generate-02.tex}
+	\end{minipage}
+	\begin{minipage}[t]{0.325\linewidth}
+		\input{src/figures/circular-hub--generate-03.tex}
+	\end{minipage}
+	\hspace*{\fill}
+	\newline%
+	\hspace*{\fill}
+	\begin{minipage}[t]{0.325\linewidth}
+		\input{src/figures/circular-hub--generate-04.tex}
+	\end{minipage}
+	\begin{minipage}[t]{0.325\linewidth}
+		\input{src/figures/circular-hub--generate-05.tex}
+	\end{minipage}
+	\hspace*{\fill}
+\end{minipage}
+\vspace{1.0cm}%
+\section*{
+  Programs -- Ecosystem Integration for Community Enhancement
+ }
+\vspace{0.5cm}%
+\input{src/figures/circular-hub--programs-01.tex}
+\vfill
+\columnbreak%
+\begin{minipage}[t][\textheight][t]{\linewidth}
+	\section*{
+	  Programs -- Ecosystem Integration for Community Enhancement \textit{(cont.)}
+	 }
+	\input{src/figures/circular-hub--programs-02.tex}
+	\vfill
+	\section*{
+	  Activities -- Holistic Platforms for Community Integration
+	 }
+	\input{src/figures/circular-hub--activities.tex}
+	\vfill
+	\input{src/figures/circular-hub--perspective.tex}
+\end{minipage}
+\EndTwoColumnLayout
+\newpage
